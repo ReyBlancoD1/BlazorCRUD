@@ -22,7 +22,7 @@ namespace BlazorCRUD.Data.Dapper.Repositories
             return new SqlConnection(ConnectionString);
         }
 
-        public async Task<bool> DeleteFilm(int id)
+        public async Task<bool> DeleteFilm(int id) 
         {
             var db = dbConnection();
 
